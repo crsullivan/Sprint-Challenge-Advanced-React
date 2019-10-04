@@ -12,7 +12,7 @@ const Navbar = (theme) => {
     setDarkMode(!darkMode);
   };
   return (
-    <nav className="navbar">
+    <nav data-testid="nav" className="navbar">
       <h1>Soccer Players</h1>
       <div className="dark-mode__toggle">
         <div

@@ -21,11 +21,13 @@ class Class extends React.Component {
     render() {
         return (
            <>
+           <div data-testid="names" className="names">
                 {this.state.info.map(data => {
                     return(
                         <h1>{data.name}</h1>
                     )
                 })}
+            </div>
            </>
         )
     }
