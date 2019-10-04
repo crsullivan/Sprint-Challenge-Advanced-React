@@ -24,9 +24,15 @@
 .navbar {
   background-color: #1F2022;
   border: none;
+  color: #fff;
+
 }
 
 .dark-mode {
   color: #fff;
   background-color: #313843;
+}
+
+.players {
+  border:5px solid silver;
 }
